@@ -1,4 +1,4 @@
-import { TransactionsContext } from "./TransactionsContext";
+import { TransactionsContext, TransactionsProvider } from "./TransactionsContext";
 import { useState } from "react";
 import Modal from "react-modal";
 import { Dashboard } from "./components/Dashboard";
@@ -22,11 +22,11 @@ export function App() {
 
   return (
     // fragment
-    <TransactionsContext.Provider value={[]}>
+    <TransactionsProvider>
       <Header onOpenNewTransactionModal={handleOpenNewTransactionModal}/>
       <Dashboard />
       <NewTransactionModal isOpen={isNewTransactionModalOpen} onRequestClose={handleCloseNewTransactionModal} />
       <GlobalStyle />
-    </TransactionsContext.Provider>
+    </TransactionsProvider>
   );
 }
