@@ -31,7 +31,13 @@ export const Container = styled.div`
             color: #FFF;
         }
 
-        .elememo{
+        .deposit{
+            color: var(--green);
+        }
+        .withdraw{
+            color: var(--red);
+        }
+        .total{
             font-weight: 600;
         }
     }
