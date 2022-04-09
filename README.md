@@ -1,6 +1,6 @@
 # Projeto Dtmoney
 
-![Watch Me](https://user-images.githubusercontent.com/57325727/158611115-7e7bb716-11fe-4d4b-9b24-087ac6ba42de.png)
+![dt](https://user-images.githubusercontent.com/57325727/162593300-42f54d46-6075-4050-91a3-bb18b7094a08.png)
 
 ### Aplicação front-end utilizando conceitos e ferramentas importantes do ecossistema React como Styled Components, MirageJS, Context API, hooks, Axios entre outros.
 
